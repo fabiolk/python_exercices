@@ -17,15 +17,14 @@ even = list()
 odd = list()
 for i in range(n):
   num.append(int(input()))
-# print(num)
 for j in range(n):
   if (num[j] % 2) == 0:
     even.append(num[j])
   else:
     odd.append(num[j])
 
-even = sorted(even, reverse=False)
-odd = sorted(odd, reverse=True)
+even = sorted(even, reverse = False)
+odd = sorted(odd, reverse = True)
 
 for i in range(len(even)):
   print(even[i])
